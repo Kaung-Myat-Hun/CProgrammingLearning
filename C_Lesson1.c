@@ -37,4 +37,5 @@ int main(){
     // }
     getch();
     hello();
+    return 0;
 }
