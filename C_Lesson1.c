@@ -25,16 +25,16 @@ int main(){
     srand(time(NULL));
     randNum = rand()%20;
     printf("%d\n", randNum);
-    // int age;
-    // printf("Enter your age : ");
-    // scanf("%d", &age);
-    // if(age >= 18){
-    //     printf("You can enter casino and play games");
-    //     getch();
-    // }else{
-    //     printf("Sorry you cannot access to enter");
-    //     getch();
-    // }
+    int age;
+    printf("Enter your age : ");
+    scanf("%d", &age);
+    if(age >= 18){
+        printf("You can enter casino and play games");
+        getch();
+    }else{
+        printf("Sorry you cannot access to enter");
+        getch();
+    }
     getch();
     hello();
     return 0;
